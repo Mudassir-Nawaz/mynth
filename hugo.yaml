@@ -4,3 +4,24 @@ title: 'My New Hugo Site'
 
 params:
   logo: logo.svg
+
+menus:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "About"
+      url: "#about"
+      weight: 2
+    - name: "Roadmap"
+      url: "#roadmap"
+      weight: 3
+    - name: "Features"
+      url: "#features"
+      weight: 4
+    - name: "Roadmap"
+      url: "#roadmap"
+      weight: 5
+    - name: "Team"
+      url: "#team"
+      weight: 6

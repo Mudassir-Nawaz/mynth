@@ -4,7 +4,13 @@
   <url>
     <loc>http://localhost:1313/Mudassir-Nawaz/mynth/</loc>
   </url><url>
+    <loc>http://localhost:1313/Mudassir-Nawaz/mynth/news/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Mudassir-Nawaz/mynth/staking/</loc>
+  </url><url>
     <loc>http://localhost:1313/Mudassir-Nawaz/mynth/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/Mudassir-Nawaz/mynth/news/stablecoin-on-cardano/</loc>
   </url><url>
     <loc>http://localhost:1313/Mudassir-Nawaz/mynth/tags/</loc>
   </url>

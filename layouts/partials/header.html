@@ -14,12 +14,11 @@
         </div>
         <div class="items-center z-50 justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
           <ul class="flex flex-col justify-center items-center p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
+            {{ range .Site.Menus.main }}
             <li>
-              <a href="#" class="block py-2 px-3 text-lime-100 hover:text-lime-300 md:p-0 transition-colors" aria-current="page">Home</a>
+              <a href="{{ .URL }}" class="block py-2 px-3 text-lime-100 hover:text-lime-300 md:p-0 transition-colors" aria-current="page">{{ .Name }}</a>
             </li>
-            <li>
-              <a href="#" class="block py-2 px-3 text-lime-100 hover:text-lime-300 md:p-0 transition-colors">About</a>
-            </li>
+            {{ end }}
             <li>
           <button type="button" class="md:hidden mt-3 text-slate-800 bg-lime-300 hover:bg-lime-400 focus:ring-4 focus:outline-none focus:ring-lime-100 font-medium rounded-lg text-sm px-4 py-2 text-center transition-all">Connect Wallet</button>
             </li>

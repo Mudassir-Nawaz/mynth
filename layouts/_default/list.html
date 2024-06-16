@@ -1,0 +1,27 @@
+{{ define "main" }}
+    <section class="w-full bg-slate-800 py-20">
+        <div class="w-full 2xl:max-w-7xl mx-auto">
+            <div class="text-center px-5 md:px-20">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-lime-300">{{ .Params.heading }}</h1>
+                <p class="text-xl md:text-2xl text-lime-100 pt-5 font-semibold">{{ .Params.paragraph }}</p>
+            </div>
+            <div class="pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+                {{ range .Pages }}
+                <div class="rounded-lg h-100">
+                    <div>
+                        <img src="{{ site.BaseURL }}/images/{{ .Params.image }}" alt="" class="rounded-t-lg">
+                    </div>
+                    <div class="p-5 bg-slate-100 rounded-b-lg space-y-3">
+                        <a href="{{ .Permalink }}" class="text-xl md:text-3xl text-lime-700 hover:text-lime-500 transition-colors">{{ .Title }}</a>
+                        <p class="text-slate-800">{{ .Params.date }}</p>
+                        <p class="text-lg text-slate-800">{{ .Params.description }}</p>
+                        <div class="pt-3">
+                            <a href="{{ .Permalink }}" class="px-3 py-2 bg-lime-500 hover:bg-lime-400 transition-colors">Learn More ></a>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+{{ end }}

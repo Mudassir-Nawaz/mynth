@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +15,7 @@
     />
     <title>{{ .Site.Title }}</title>
   </head>
-  <body>
+  <body class="">
     <header class="bg-slate-800">{{ partial "header.html" . }}</header>
     {{ block "main" . }} {{ end }}
     <footer>{{ partial "footer.html" . }}</footer>

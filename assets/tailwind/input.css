@@ -9,3 +9,10 @@
 .swiper-pagination-bullet-active {
     background-color: rgb(132 204 22) !important;
 }
+
+.author-bio-txt {
+	p {
+		line-height: 1.535em;
+		margin-bottom: 1.4em;
+	}
+}
