@@ -17,7 +17,7 @@
         {{ range .coins }}
         <div>
           <img
-            src="{{ .Site.BaseURL }}/images/{{ .image }}"
+            src="{{ site.BaseURL }}/images/{{ .image }}"
             alt=""
             class="bg-slate-900 rounded-lg p-2"
           />
@@ -176,7 +176,7 @@
       </p>
     </div>
     <div class="md:w-1/2" data-aos="fade-left">
-      <img src="{{ .Site.BaseURL }}/images/{{ .image }}" alt="" />
+      <img src="{{ site.BaseURL }}/images/{{ .image }}" alt="" />
     </div>
   </div>
 </section>
@@ -199,7 +199,7 @@
           <div
             class="md:w-4/5 mx-auto block bg-slate-800 border-t-8 border-lime-300 rounded-lg p-5 text-center"
           >
-            <img src="{{ .Site.BaseURL }}/images/{{ .image }}" alt="" class="w-3/4 mx-auto" />
+            <img src="{{ site.BaseURL }}/images/{{ .image }}" alt="" class="w-3/4 mx-auto" />
             <h3 class="text-lime-100 text-xl md:text-5xl">{{ .title }}</h3>
             <p class="text-xl text-lime-100 px-5 pt-5 md:px-32">
               {{ .paragraph }}
