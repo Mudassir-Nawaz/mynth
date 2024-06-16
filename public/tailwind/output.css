@@ -636,6 +636,21 @@ video {
   top: 14rem;
 }
 
+<<<<<<< HEAD
+=======
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.-top-32 {
+  top: -8rem;
+}
+
+>>>>>>> ba9bd26be2f4b83b699481b731798d3878e3ba2a
 .z-50 {
   z-index: 50;
 }

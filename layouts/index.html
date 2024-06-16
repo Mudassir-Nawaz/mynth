@@ -278,10 +278,10 @@
     <!-- Modal for each event -->
     <div
       id='{{ $event.title | replace " " "" }}'
-      class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4"
+      class="fixed hidden z-50 inset-0 bg-opacity-60 overflow-y-auto h-full w-full px-4"
     >
       <div
-        class="relative top-40 mx-auto shadow-xl rounded-md bg-white max-w-5xl"
+        class="relative top-0 mx-auto shadow-xl rounded-md bg-white max-w-5xl"
       >
         <div class="flex justify-end p-2">
           <button
@@ -305,10 +305,15 @@
         </div>
 
         <div class="p-2 md:p-6 pt-0">
-          <img src="{{ .Site.BaseURL }}/images/myusd-roadmap.jpg" alt="" />
+          {{ range .details }}
+          <img src="{{ site.BaseURL }}/images/{{ .image }}" alt="" />
           <h3 class="font-normal text-lime-500 mt-5 mb-6 text-3xl md:text-5xl">
-            {{ $event.title }}
+            {{ .title }}
           </h3>
+          <p class="text-lg">
+            {{ .paragraph }}
+            </p>
+          {{ end }}
         </div>
       </div>
     </div>
