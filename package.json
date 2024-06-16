@@ -1,0 +1,19 @@
+{
+  "name": "web-files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/tailwind/input.css -o ./assets/tailwind/output.css",
+    "watch": "npx tailwindcss -i ./assets/tailwind/input.css -o ./assets/tailwind/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}

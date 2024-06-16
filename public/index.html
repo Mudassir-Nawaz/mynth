@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.125.7"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="/tailwind/output.css" />
+     
+    <script defer src="http://localhost:1313/js/script.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>My New Hugo Site</title>
+  </head>
+  <body>
+    <header class="bg-slate-800"><nav class="w-full 2xl:max-w-7xl mx-auto p-5 flex justify-between items-center">
+    <div class="flex flex-wrap items-center justify-between mx-auto p-4 w-full gap-y-5">
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="/images/logo.svg" class="h-8" alt="My New Hugo Site Logo">
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <button type="button" class="hidden md:block text-slate-800 bg-lime-200 hover:bg-lime-300 focus:ring-4 focus:outline-none focus:ring-lime-100 font-medium rounded-lg text-sm px-4 py-2 text-center transition-all">Connect Wallet</button>
+          <button id="menu-opener" data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+        </div>
+        <div class="items-center z-50 justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col justify-center items-center p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
+            <li>
+              <a href="#" class="block py-2 px-3 text-lime-100 hover:text-lime-300 md:p-0 transition-colors" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 text-lime-100 hover:text-lime-300 md:p-0 transition-colors">About</a>
+            </li>
+            <li>
+          <button type="button" class="md:hidden mt-3 text-slate-800 bg-lime-300 hover:bg-lime-400 focus:ring-4 focus:outline-none focus:ring-lime-100 font-medium rounded-lg text-sm px-4 py-2 text-center transition-all">Connect Wallet</button>
+            </li>
+          </ul>
+        </div>
+        </div>
+</nav></header>
+    
+
+
+
+<section class="w-full bg-slate-800 py-20">
+  <div class="flex justify-center items-center pt-16 2xl:max-w-7xl mx-auto">
+    <div class="space-y-5 px-5" data-aos="zoom-in">
+      <h1
+        class="text-white font-extrabold text-4xl sm:text-5xl md:text-7xl text-center"
+      >
+        Connecting Cardano
+      </h1>
+      <p class="text-white text-xl md:text-3xl text-center">
+        Building highways to other networks
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-5">
+        
+        <div>
+          <img
+            src="/images/tron.png"
+            alt=""
+            class="bg-slate-900 rounded-lg p-2"
+          />
+          <p class="text-xs text-slate-100 text-center">Tron USDT</p>
+        </div>
+        
+        <div>
+          <img
+            src="/images/myusd.png"
+            alt=""
+            class="bg-slate-900 rounded-lg p-2"
+          />
+          <p class="text-xs text-slate-100 text-center">Stable MyUSD</p>
+        </div>
+        
+        <div>
+          <img
+            src="/images/stakeandearn.png"
+            alt=""
+            class="bg-slate-900 rounded-lg p-2"
+          />
+          <p class="text-xs text-slate-100 text-center">Stake &amp; Earn</p>
+        </div>
+        
+        <div>
+          <img
+            src="/images/solana.png"
+            alt=""
+            class="bg-slate-900 rounded-lg p-2"
+          />
+          <p class="text-xs text-slate-100 text-center">Solana</p>
+        </div>
+        
+        <div>
+          <img
+            src="/images/polygon.png"
+            alt=""
+            class="bg-slate-900 rounded-lg p-2"
+          />
+          <p class="text-xs text-slate-100 text-center">Polygon</p>
+        </div>
+        
+        <div>
+          <img
+            src="/images/arbitrum.png"
+            alt=""
+            class="bg-slate-900 rounded-lg p-2"
+          />
+          <p class="text-xs text-slate-100 text-center">Arbitrum</p>
+        </div>
+        
+        <div>
+          <img
+            src="/images/bitcoin.png"
+            alt=""
+            class="bg-slate-900 rounded-lg p-2"
+          />
+          <p class="text-xs text-slate-100 text-center">Bitcoin</p>
+        </div>
+        
+      </div>
+      <div
+        class="space-x-5 flex justify-center items-center flex-wrap sm:flex-nowrap gap-y-5"
+      >
+        
+
+        <a
+          class="inline-block rounded bg-lime-200 px-8 py-3 text-sm font-medium text-slate-900 transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-lime-100"
+          href="#team"
+        >
+          Team
+        </a>
+
+        
+
+        <a
+          class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-lime-200 transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:text-lime-100"
+          href="#roadmap"
+        >
+          RoadMap
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="w-full md:w-3/4 lg:w-1/2 mx-auto bg-slate-100 py-10 relative top-56 rounded-lg border-t-lime-200 border-t-8 2xl:max-w-3xl"
+  >
+    <div class="p-5 text-center" data-aos="fade-up-right">
+      <h3 class="text-4xl font-semibold pb-5">Next Rewards In</h3>
+      <div
+        class="grid grid-col-1 sm:grid-cols-3 items-center sm:w-72 mx-auto gap-7"
+      >
+        <div
+          class="bg-slate-700 px-3 py-5 text-lime-200 text-center border-t-4 border-t-lime-200 text-3xl"
+          id="myDay"
+        >
+          03 <span class="text-sm">Days</span>
+        </div>
+        <div
+          class="bg-slate-700 px-3 py-5 text-lime-200 text-center border-t-4 border-t-lime-200 text-3xl"
+          id="myHour"
+        >
+          06 <span class="text-sm">Hour</span>
+        </div>
+        <div
+          class="bg-slate-700 px-3 py-5 text-lime-200 text-center border-t-4 border-t-lime-200 text-3xl"
+          id="myMinute"
+        >
+          03 <span class="text-sm">Minutes</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="w-full py-20 bg-slate-100 pt-56">
+  <div class="w-full 2xl:max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row items-center justify-center gap-5">
+      <div class="md:w-1/2 pl-5" data-aos="fade-right">
+        <h3 class="text-2xl md:text-6xl font-bold text-lime-500">MyUSD</h3>
+        <p class="text-lg md:text-xl font-semibold pt-3 text-lime-500">
+          Stable &amp; Reliable
+        </p>
+        <p class="md:text-lg pt-5">
+          MyUSD is a stablecoin designed to provide a stable, scalable, and fully redeemable option within the Cardano ecosystem. It is pegged to the US dollar, ensuring that its value remains consistent and non-volatile. MyUSD serves as a foundational element in Mynth’s broader mission to create a seamless and integrated DeFi experience, ensuring users can easily transfer, exchange, and manage their digital assets across various blockchain platforms.
+        </p>
+        <div
+          class="space-x-5 flex items-center pt-5 flex-wrap sm:flex-nowrap gap-y-5"
+        >
+          
+
+          <a
+            class="inline-block rounded bg-lime-500 px-8 py-3 text-sm font-medium text-slate-900 transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-lime-100"
+            href="/lean-more"
+          >
+            Learn More
+          </a>
+
+          
+
+          <a
+            class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-lime-500 transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:text-lime-100"
+            href="/faqs"
+          >
+            FAQs
+          </a>
+        </div>
+      </div>
+      <div class="w-full px-5 md:w-1/2 md:pr-20" data-aos="fade-left">
+        <iframe
+          class="w-full rounded-lg aspect-video"
+          src="https://www.youtube.com/embed/Pe0ObwhTWhs?si=O5OKvbKKCLWOGKDx"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center px-5 gap-5 pt-5 md:pt-10"
+    >
+    
+      <div class="">
+        <iframe
+          class="w-full rounded-lg aspect-video"
+          data-aos="fade-right"
+          src="https://www.youtube.com/embed/wvUukA48do8?si=y5cAGUylkmYq4OPL"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      
+      <div class="">
+        <iframe
+          class="w-full rounded-lg aspect-video"
+          data-aos="fade-right"
+          src="https://www.youtube.com/embed/DhP0ZLOO6no?si=FF1TvVhDpBoX2mxz"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      
+      <div class="">
+        <iframe
+          class="w-full rounded-lg aspect-video"
+          data-aos="fade-right"
+          src="https://www.youtube.com/embed/O0ELHI4VE-w?si=Pdv9wna7m2GdwtZn"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="w-full bg-slate-800 py-10">
+  <div
+    class="flex flex-col md:flex-row items-center justify-between gap-5 w-full 2xl:max-w-7xl py-20 mx-auto px-5 md:px-10"
+  >
+    <div data-aos="fade-right" class="md:w-1/2">
+      <h3 class="text-2xl md:text-6xl font-bold text-white">A Quick Intro</h3>
+      <p class="text-white text-lg pt-5">
+        Mynth creates highways to interconnect networks, allowing users to seamlessly transfer native assets without barriers. Mynth offers a suite of tools to help you navigate the complex world of blockchains with ease, including:
+      </p>
+      <ul class="text-white text-lg space-y-3 py-3">
+        
+        <li class="list-disc">MyUSD, a reliable and scalable stablecoin</li>
+        
+        <li class="list-disc">Stable Swaps, allowing for full interoperability between stable assets</li>
+        
+        <li class="list-disc">Cross-Chain Swaps, enabling assets to be used interchangeably</li>
+        
+        <li class="list-disc">Mynth Lizard, a layer 2 network offering zero-knowledge proofs</li>
+        
+      </ul>
+      <p class="text-white text-lg">
+        Dissatisfied with the existing options for blockchain interoperability and scalability, the Mynth team bonded together to build on top of the most secure and decentralized network. We are determined to further enhance blockchain usability and fulfill the mission to equalize the playing field without discrimination, bringing new financial opportunities to everyone.
+      </p>
+    </div>
+    <div class="md:w-1/2" data-aos="fade-left">
+      <img src="/images/quick-intro.png" alt="" />
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="w-full py-10 bg-slate-100">
+  <div class="w-full 2xl:max-w-7xl mx-auto">
+    <h3 class="text-3xl md:text-6xl text-lime-400 text-center pb-10">
+      Features
+    </h3>
+    <div class="swiper md:w-4/5" id="mySwiper" data-aos="flip-up">
+      <div class="swiper-wrapper w-1/2 h-1/2">
+        
+        <div class="swiper-slide bg-center bg-cover">
+          <div
+            class="md:w-4/5 mx-auto block bg-slate-800 border-t-8 border-lime-300 rounded-lg p-5 text-center"
+          >
+            <img src="/images/babel-fee.png" alt="" class="w-3/4 mx-auto" />
+            <h3 class="text-lime-100 text-xl md:text-5xl">Babel Fees</h3>
+            <p class="text-xl text-lime-100 px-5 pt-5 md:px-32">
+              Babel fees allows you to seamlessly pay for a transaction using any token.
+            </p>
+          </div>
+        </div>
+        
+        <div class="swiper-slide bg-center bg-cover">
+          <div
+            class="md:w-4/5 mx-auto block bg-slate-800 border-t-8 border-lime-300 rounded-lg p-5 text-center"
+          >
+            <img src="/images/streaming-swap.png" alt="" class="w-3/4 mx-auto" />
+            <h3 class="text-lime-100 text-xl md:text-5xl">Streaming Swaps</h3>
+            <p class="text-xl text-lime-100 px-5 pt-5 md:px-32">
+              Streaming swaps break a large transaction into a set of smaller mini-transactions to get you the best price.
+            </p>
+          </div>
+        </div>
+        
+        <div class="swiper-slide bg-center bg-cover">
+          <div
+            class="md:w-4/5 mx-auto block bg-slate-800 border-t-8 border-lime-300 rounded-lg p-5 text-center"
+          >
+            <img src="/images/staking-earnings.png" alt="" class="w-3/4 mx-auto" />
+            <h3 class="text-lime-100 text-xl md:text-5xl">Staking Earnings</h3>
+            <p class="text-xl text-lime-100 px-5 pt-5 md:px-32">
+              Receive rewards from staking MNT and MyUSD every epoch (5 days), without your tokens ever leaving your wallet.
+            </p>
+          </div>
+        </div>
+        
+        ...
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="w-full bg-slate-800 py-10">
+  <div class="w-full 2xl:max-w-7xl mx-auto">
+    <h2 class="text-3xl md:text-6xl text-lime-100 text-center pb-10">
+      Roadmap and Future
+    </h2>
+    <div
+      class="flex flex-col grid-cols-9 p-2 mx-auto md:grid"
+      data-aos="zoom-in"
+    >
+    
+    
+    
+      <div class="flex md:contents flex-row-reverse" onclick='openModal(`Mynth Liquid Staking Mynth Liquid Staking`)'>
+        <div
+          class="relative p-4 my-6 text-slate-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto cursor-pointer"
+        >
+          <h3 class="text-lg font-semibold lg:text-xl">Mynth Liquid Staking</h3>
+          <span
+            class="absolute text-sm text-lime-100/75 -top-5 left-2 whitespace-nowrap"
+            >January 15, 2024</span
+          >
+        </div>
+        <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+          <div class="flex items-center justify-center w-6 h-full">
+            <div
+              class="w-1 h-full bg-lime-100 rounded-t-full bg-gradient-to-b from-lime-200 to-lime-100"
+            ></div>
+          </div>
+          <div
+            class="absolute w-6 h-6 -mt-3 bg-white border-4 border-lime-100 rounded-full top-1/2"
+          ></div>
+        </div>
+      </div>
+    
+    
+    <div
+      id='Mynth Liquid Staking Mynth Liquid Staking'
+      class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4"
+    >
+      <div
+        class="relative top-40 mx-auto shadow-xl rounded-md bg-white max-w-5xl"
+      >
+        <div class="flex justify-end p-2">
+          <button
+            onclick='closeModal(`Mynth Liquid Staking Mynth Liquid Staking`)'
+            type="button"
+            class="text-lime-500 bg-transparent hover:bg-lime-200 hover:text-lime-700 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center transition-all"
+          >
+            <svg
+              class="w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="p-2 md:p-6 pt-0">
+          <img src="/images/myusd-roadmap.jpg" alt="" />
+          <h3 class="font-normal text-lime-500 mt-5 mb-6 text-3xl md:text-5xl">
+            Mynth Liquid Staking
+          </h3>
+        </div>
+      </div>
+    </div>
+    
+    
+      <div class="flex md:contents" onclick='openModal(`Mynth Liquid Mynth Liquid`)'>
+        <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+          <div class="flex items-center justify-center w-6 h-full">
+            <div class="w-1 h-full bg-lime-100"></div>
+          </div>
+          <div
+            class="absolute w-6 h-6 -mt-3 bg-white border-4 border-lime-100 rounded-full top-1/2"
+          ></div>
+        </div>
+        <div
+          class="relative p-4 my-6 text-slate-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto cursor-pointer"
+        >
+          <h3 class="text-lg font-semibold lg:text-xl">Mynth Liquid</h3>
+          <span
+            class="absolute text-sm text-lime-100/75 -top-5 left-2 whitespace-nowrap"
+            >January 15, 2024</span
+          >
+        </div>
+      </div>
+    
+    
+    <div
+      id='Mynth Liquid Mynth Liquid'
+      class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4"
+    >
+      <div
+        class="relative top-40 mx-auto shadow-xl rounded-md bg-white max-w-5xl"
+      >
+        <div class="flex justify-end p-2">
+          <button
+            onclick='closeModal(`Mynth Liquid Mynth Liquid`)'
+            type="button"
+            class="text-lime-500 bg-transparent hover:bg-lime-200 hover:text-lime-700 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center transition-all"
+          >
+            <svg
+              class="w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="p-2 md:p-6 pt-0">
+          <img src="/images/myusd-roadmap.jpg" alt="" />
+          <h3 class="font-normal text-lime-500 mt-5 mb-6 text-3xl md:text-5xl">
+            Mynth Liquid
+          </h3>
+        </div>
+      </div>
+    </div>
+    
+    
+      <div class="flex md:contents flex-row-reverse" onclick='openModal(`Mynth Staking Mynth Staking`)'>
+        <div
+          class="relative p-4 my-6 text-slate-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto cursor-pointer"
+        >
+          <h3 class="text-lg font-semibold lg:text-xl">Mynth Staking</h3>
+          <span
+            class="absolute text-sm text-lime-100/75 -top-5 left-2 whitespace-nowrap"
+            >January 15, 2024</span
+          >
+        </div>
+        <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+          <div class="flex items-center justify-center w-6 h-full">
+            <div
+              class="w-1 h-full bg-lime-100 rounded-t-full bg-gradient-to-b from-lime-200 to-lime-100"
+            ></div>
+          </div>
+          <div
+            class="absolute w-6 h-6 -mt-3 bg-white border-4 border-lime-100 rounded-full top-1/2"
+          ></div>
+        </div>
+      </div>
+    
+    
+    <div
+      id='Mynth Staking Mynth Staking'
+      class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4"
+    >
+      <div
+        class="relative top-40 mx-auto shadow-xl rounded-md bg-white max-w-5xl"
+      >
+        <div class="flex justify-end p-2">
+          <button
+            onclick='closeModal(`Mynth Staking Mynth Staking`)'
+            type="button"
+            class="text-lime-500 bg-transparent hover:bg-lime-200 hover:text-lime-700 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center transition-all"
+          >
+            <svg
+              class="w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="p-2 md:p-6 pt-0">
+          <img src="/images/myusd-roadmap.jpg" alt="" />
+          <h3 class="font-normal text-lime-500 mt-5 mb-6 text-3xl md:text-5xl">
+            Mynth Staking
+          </h3>
+        </div>
+      </div>
+    </div>
+    
+    
+      <div class="flex md:contents" onclick='openModal(`MynthLiquid MynthLiquid`)'>
+        <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+          <div class="flex items-center justify-center w-6 h-full">
+            <div class="w-1 h-full bg-lime-100"></div>
+          </div>
+          <div
+            class="absolute w-6 h-6 -mt-3 bg-white border-4 border-lime-100 rounded-full top-1/2"
+          ></div>
+        </div>
+        <div
+          class="relative p-4 my-6 text-slate-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto cursor-pointer"
+        >
+          <h3 class="text-lg font-semibold lg:text-xl">MynthLiquid</h3>
+          <span
+            class="absolute text-sm text-lime-100/75 -top-5 left-2 whitespace-nowrap"
+            >January 15, 2024</span
+          >
+        </div>
+      </div>
+    
+    
+    <div
+      id='MynthLiquid MynthLiquid'
+      class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4"
+    >
+      <div
+        class="relative top-40 mx-auto shadow-xl rounded-md bg-white max-w-5xl"
+      >
+        <div class="flex justify-end p-2">
+          <button
+            onclick='closeModal(`MynthLiquid MynthLiquid`)'
+            type="button"
+            class="text-lime-500 bg-transparent hover:bg-lime-200 hover:text-lime-700 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center transition-all"
+          >
+            <svg
+              class="w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="p-2 md:p-6 pt-0">
+          <img src="/images/myusd-roadmap.jpg" alt="" />
+          <h3 class="font-normal text-lime-500 mt-5 mb-6 text-3xl md:text-5xl">
+            MynthLiquid
+          </h3>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="py-6 bg-slate-100 text-slate-800">
+  <div
+    class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10"
+  >
+    <h3 class="text-3xl md:text-6xl text-lime-400 text-center pb-10">
+      Team and Contact
+    </h3>
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center mt-8 w-full gap-6"
+    >
+      <div
+        class="flex flex-col justify-center px-8 my-12 text-center rounded-md bg-slate-800 text-slate-100 w-full"
+        data-aos="fade-up"
+      >
+        <img
+          alt=""
+          class="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full bg-slate-500"
+          src="/images/robert.jpeg"
+        />
+        <div class="flex-1 my-4">
+          <p class="text-xl font-semibold leading-snug text-lime-300">
+            Leroy Jenkins
+          </p>
+          <p>Visual Designer</p>
+        </div>
+        <div
+          class="flex items-center justify-center p-3 space-x-3 border-t-2 border-lime-300"
+        >
+          <a
+            rel="noopener noreferrer"
+            href="#"
+            title="Email"
+            class="text-slate-50 hover:text-lime-300"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+              ></path>
+              <path
+                d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <footer></footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
