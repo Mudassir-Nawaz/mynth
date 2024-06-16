@@ -7,21 +7,9 @@ params:
 
 menus:
   main:
-    - name: "Home"
-      url: "/"
+    - name: "Staking"
+      url: "/staking/"
       weight: 1
-    - name: "About"
-      url: "#about"
+    - name: "News"
+      url: "/news/"
       weight: 2
-    - name: "Roadmap"
-      url: "#roadmap"
-      weight: 3
-    - name: "Features"
-      url: "#features"
-      weight: 4
-    - name: "Roadmap"
-      url: "#roadmap"
-      weight: 5
-    - name: "Team"
-      url: "#team"
-      weight: 6
