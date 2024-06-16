@@ -17,7 +17,7 @@
         {{ range .coins }}
         <div>
           <img
-            src="/images/{{ .image }}"
+            src="{{ .Site.BaseURL }}/images/{{ .image }}"
             alt=""
             class="bg-slate-900 rounded-lg p-2"
           />
@@ -176,7 +176,7 @@
       </p>
     </div>
     <div class="md:w-1/2" data-aos="fade-left">
-      <img src="/images/{{ .image }}" alt="" />
+      <img src="{{ .Site.BaseURL }}/images/{{ .image }}" alt="" />
     </div>
   </div>
 </section>
@@ -199,7 +199,7 @@
           <div
             class="md:w-4/5 mx-auto block bg-slate-800 border-t-8 border-lime-300 rounded-lg p-5 text-center"
           >
-            <img src="/images/{{ .image }}" alt="" class="w-3/4 mx-auto" />
+            <img src="{{ .Site.BaseURL }}/images/{{ .image }}" alt="" class="w-3/4 mx-auto" />
             <h3 class="text-lime-100 text-xl md:text-5xl">{{ .title }}</h3>
             <p class="text-xl text-lime-100 px-5 pt-5 md:px-32">
               {{ .paragraph }}
@@ -305,7 +305,7 @@
         </div>
 
         <div class="p-2 md:p-6 pt-0">
-          <img src="/images/myusd-roadmap.jpg" alt="" />
+          <img src="{{ .Site.BaseURL }}/images/myusd-roadmap.jpg" alt="" />
           <h3 class="font-normal text-lime-500 mt-5 mb-6 text-3xl md:text-5xl">
             {{ $event.title }}
           </h3>
@@ -338,7 +338,7 @@
         <img
           alt=""
           class="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full bg-slate-500"
-          src="/images/robert.jpeg"
+          src="{{ .Site.BaseURL }}/images/robert.jpeg"
         />
         <div class="flex-1 my-4">
           <p class="text-xl font-semibold leading-snug text-lime-300">
