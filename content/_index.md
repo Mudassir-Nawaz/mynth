@@ -62,10 +62,26 @@ roadmap_section:
     events:
         - title: "Mynth Liquid Staking"
           date: "January 15, 2024"
-        - title: "Mynth Liquid"
-          date: "January 15, 2024"
-        - title: "Mynth Staking"
-          date: "January 15, 2024"
-        - title: "MynthLiquid"
-          date: "January 15, 2024"
+          details:
+            - title: "Mynth Liquid Staking"
+              image: myusd-roadmap.jpg
+              paragraph: "Mynth has introduced Liquid Staking for Chameleon, MNT and MyUSD holders. Hold your assets, maintain full control and custody, and automatically earn compounded rewards each epoch (every five days). By keeping your assets securely in your wallet, you can avoid smart contract risks and now participate in the network’s growth through reward earnings. This not only empowers you with greater security and control, but also enhances the utility and attractiveness of holding Mynth’s native assets."
+        - title: "MyUSD > ADA"
+          date: "March 20, 2024"
+          details:
+            - title: "Mynth Streaming Swaps"
+              image: myusd-ada-roadmap.png
+              paragraph: "Mynth’s Streaming Swaps acts as a continuous and active exchange, strategically designed to fulfill large orders at the most advantageous prices. Unlike regular swaps that can cause losses in the form of excess fees or slippage, Streaming Swaps execute your order in smaller portions. This ensures your swaps get executed at the best possible rates, allowing you to buy or sell larger amounts of MyUSD without worries. You get the benefits from a seamless and efficient exchange within the Cardano ecosystem, where MyUSD is effortlessly collateralized and its supply automatically expanded, all without any manual intervention."
+        - title: "ADA > MyUSD"
+          date: "March 20, 2024"
+          details:
+            - title: "Mynth Streaming Swaps"
+              image: myusd-ada-roadmap.png
+              paragraph: "Mynth’s Streaming Swaps acts as a continuous and active exchange, strategically designed to fulfill large orders at the most advantageous prices. Unlike regular swaps that can cause losses in the form of excess fees or slippage, Streaming Swaps execute your order in smaller portions. This ensures your swaps get executed at the best possible rates, allowing you to buy or sell larger amounts of MyUSD without worries. You get the benefits from a seamless and efficient exchange within the Cardano ecosystem, where MyUSD is effortlessly collateralized and its supply automatically expanded, all without any manual intervention."
+        - title: "Polygon Integration"
+          date: "March 20, 2024"
+          details:
+            - title: "Cardano and Polygon Integration"
+              image: polygon-roadmap.png
+              paragraph: "Mynth is integrating Cardano with Polygon to enable direct and seamless swaps between tokens native to Cardano and those on the Polygon network. Polygon, known for its scalability and low transaction costs, complements Cardano’s secure and sustainable blockchain, facilitating a more interconnected cryptocurrency ecosystem. This further bolsters Mynth’s mission to achieve full interoperability among digital assets, simplifying transactions across blockchains."
 ---
